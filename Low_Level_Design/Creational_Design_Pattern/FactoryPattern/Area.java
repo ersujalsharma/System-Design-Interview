@@ -1,4 +1,4 @@
-package Low_Level_Design.Creational_Design_Pattern;
+package Low_Level_Design.Creational_Design_Pattern.FactoryPattern;
 
 public class Area {
     public static void main(String[] args) {

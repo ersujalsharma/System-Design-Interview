@@ -6,6 +6,7 @@ import Low_Level_Design.Creational_Design_Pattern.AbstractFactoryPattern.PizzaPr
 public class ToppingFactory {
      public static Topping prepareToppings(String val) {
         if (val.equalsIgnoreCase("jalepino")) {
+            System.out.println("Preparing Jalepino Toppings");
             return new JalepinoToppings();
         } else {
             throw new UnsupportedOperationException("Unsupported topping type: " + val);

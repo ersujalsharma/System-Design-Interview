@@ -6,6 +6,7 @@ import Low_Level_Design.Creational_Design_Pattern.AbstractFactoryPattern.PizzaPr
 public class SauceFactory {
     public static Sauce prepareSauce(String val) {
         if (val.equalsIgnoreCase("tomato")) {
+            System.out.println("Preparing Tomato Sauce");
             return new TomatoSauce();
         } else {
             throw new UnsupportedOperationException("Unsupported sauce type: " + val);

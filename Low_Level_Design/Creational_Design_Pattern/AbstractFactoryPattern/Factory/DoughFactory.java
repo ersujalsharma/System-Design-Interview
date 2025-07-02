@@ -6,6 +6,7 @@ import Low_Level_Design.Creational_Design_Pattern.AbstractFactoryPattern.PizzaPr
 public class DoughFactory {
     public static Dough prepareDough(String val) {
         if (val.equalsIgnoreCase("thick")) {
+            System.out.println("Preparing Thick Dough");
             return new ThickDough();
         } else {
             throw new UnsupportedOperationException("Unsupported dough type: " + val);
