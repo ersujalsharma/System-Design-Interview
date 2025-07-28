@@ -2,7 +2,6 @@ package Low_Level_Design.MachineCodingRound.Design_Vending_Machine;
 
 import Low_Level_Design.MachineCodingRound.Design_Vending_Machine.VendingMachine.Item;
 import Low_Level_Design.MachineCodingRound.Design_Vending_Machine.VendingMachine.VendingMachine;
-import Low_Level_Design.MachineCodingRound.Design_Vending_Machine.VendingMachine.VendingMachineState;
 
 public class Main {
     public static void main(String[] args) {
