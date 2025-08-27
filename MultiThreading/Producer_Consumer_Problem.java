@@ -9,7 +9,7 @@ import java.util.Queue;
  * 
  */
 public class Producer_Consumer_Problem {
-    // for seperate branch
+
     public static void main(String[] args) {
         SharedResouce1 sharedResouce = new SharedResouce1();
         Thread thread1 = new Thread(new Producer(sharedResouce));
@@ -64,6 +64,7 @@ class Producer implements Runnable{
             try {
                 Thread.sleep(10000l);
             } catch (InterruptedException e) {
+
                 e.printStackTrace();
             }
             sharedResouce.addItem();
