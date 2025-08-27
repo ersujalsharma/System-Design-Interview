@@ -5,19 +5,6 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        // Hotel hotel1 = new Hotel();
-        // hotel1.addRoom(new Room(RoomType.DELUX));
-        // hotel1.addRoom(new Room(RoomType.LUXURY));
-        // List<Hotel> list = new ArrayList<>();
-        // list.add(hotel1);
-        // HotelManagementSystem hms = new HotelManagementSystem(list);
-        // User user = new User();
-        // hms.showHotels();
-        // hms.setCurrentHotel(hotel1);
-        // Room room = hms.findAvailableRoom(RoomType.DELUX);
-        // Booking booking = hms.bookRoom(room, user, new DayWise_PaymentStrategy());
-        // int val = hms.checkOut(booking);
-        // System.out.println("Checked out successfully. Total amount: " + val);
         Hotel sampleHotel = new Hotel();
         sampleHotel.addRoom(new Room(RoomType.DELUX));
         sampleHotel.addRoom(new Room(RoomType.LUXURY));
