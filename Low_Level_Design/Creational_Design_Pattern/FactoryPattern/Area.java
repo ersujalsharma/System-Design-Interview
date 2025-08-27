@@ -3,7 +3,7 @@ package Low_Level_Design.Creational_Design_Pattern.FactoryPattern;
 public class Area {
     public static void main(String[] args) {
         // Calculate Area for Circle;
-        String val = "Circle";
+        // String val = "Circle";
         Shape shape = null;
         // if (val.equals("Circle")) {
         //     shape = new Circle(5);

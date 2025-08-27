@@ -8,4 +8,5 @@ public class Comment {
         this.commentId = counter++;
         this.message = message;
     } 
+    
 }
