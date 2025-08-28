@@ -35,13 +35,22 @@ public class Thread_Exercise2_Join_Deamon {
         //     e.printStackTrace();
         // }
         thread3.start();
-        while (thread3.isAlive()) {
-            System.out.println("Thread 3 is working Cause I am deamon, i'll die after all////" + thread2.isAlive() +" " + thread1.isAlive() +" " + Thread.currentThread().isAlive());
-        }
+        // while (thread3.isAlive()) {
+        //     System.out.println("Thread 3 is working Cause I am deamon, i'll die after all////" + thread2.isAlive() +" " + thread1.isAlive() +" " + Thread.currentThread().isAlive());
+        // }
         System.out.println("Main thread closed.");
     }
 }
 class Producer1 implements Runnable{
+    public  synchronized void test(){
+        // try {
+        //     Thread.sleep(2000l);
+        // } catch (InterruptedException e) {
+        //     // TODO Auto-generated catch block
+        //     e.printStackTrace();
+        // }
+        System.out.println("Thread is Entering...."+Thread.currentThread().getName());
+    }
 
     @Override
     public void run() {
@@ -53,6 +62,7 @@ class Producer1 implements Runnable{
             // TODO Auto-generated catch block
             e.printStackTrace();
         }
+        test();
         System.out.println("ProducedTask"+Thread.currentThread().getName());
     }
     
