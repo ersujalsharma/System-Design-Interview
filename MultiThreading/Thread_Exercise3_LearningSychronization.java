@@ -1,6 +1,6 @@
 package MultiThreading;
 
-public class Thread_Execise3_LearningSychronization {
+public class Thread_Exercise3_LearningSychronization {
     public static void main(String[] args) {
         SharedResouce2 sharedResouce = new SharedResouce2();
         Thread t1 = new Thread(new ProducedTask2(sharedResouce));

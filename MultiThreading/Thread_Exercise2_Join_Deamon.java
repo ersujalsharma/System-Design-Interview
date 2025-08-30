@@ -11,7 +11,6 @@ public class Thread_Exercise2_Join_Deamon {
             try {
                 Thread.sleep(10000l);
             } catch (InterruptedException e) {
-                // TODO Auto-generated catch block
                 e.printStackTrace();
             }
             System.out.println("Thread 3 Stopped..");
@@ -24,14 +23,12 @@ public class Thread_Exercise2_Join_Deamon {
         // try {
         //     thread1.join();
         // } catch (InterruptedException e) {
-        //     // TODO Auto-generated catch block
         //     e.printStackTrace();
         // }
         thread2.start();
         // try {
         //     thread2.join();
         // } catch (InterruptedException e) {
-        //     // TODO Auto-generated catch block
         //     e.printStackTrace();
         // }
         thread3.start();
@@ -46,7 +43,6 @@ class Producer1 implements Runnable{
         // try {
         //     Thread.sleep(2000l);
         // } catch (InterruptedException e) {
-        //     // TODO Auto-generated catch block
         //     e.printStackTrace();
         // }
         System.out.println("Thread is Entering...."+Thread.currentThread().getName());
@@ -54,12 +50,10 @@ class Producer1 implements Runnable{
 
     @Override
     public void run() {
-        // TODO Auto-generated method stub
         System.out.println("Producig task"+Thread.currentThread().getName());
         try {
             Thread.sleep(8000l);
         } catch (InterruptedException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         }
         test();

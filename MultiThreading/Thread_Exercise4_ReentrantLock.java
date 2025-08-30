@@ -2,7 +2,7 @@ package MultiThreading;
 
 import java.util.concurrent.locks.ReentrantLock;
 
-public class Thread_Exercise_ReentrantLock {
+public class Thread_Exercise4_ReentrantLock {
     public static void main(String[] args) {
         SharedResouceReentrantLock sharedResouceReentrantLock = new SharedResouceReentrantLock();
         ReentrantLock reentrantLock = new ReentrantLock();

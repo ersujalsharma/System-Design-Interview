@@ -1,6 +1,6 @@
 package MultiThreading;
 
-public class Thread_Excercise {
+public class Thread_Exercise1_Creation {
     public static void main(String[] args) {
         SharedResouce sharedResouce = new SharedResouce();
         ProducerTask thread1 = new ProducerTask(sharedResouce);
